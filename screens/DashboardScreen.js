@@ -19,8 +19,7 @@ import { TradingContext } from '../context/TradingContext';
 const DashboardScreen = ({ navigation }) => {
   const { colors } = useTheme();
   const { triggerRefresh } = useContext(TradingContext);
-
-  // Set delete icon in header
+ 
   useLayoutEffect(() => {
     navigation.setOptions({
       headerRight: () => (
